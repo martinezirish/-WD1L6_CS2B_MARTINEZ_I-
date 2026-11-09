@@ -1,0 +1,42 @@
+/* General Style */
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  background: #212529;
+  color: white;
+  padding: 100px 20px;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+}
+
+/* Project Cards */
+.card {
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact Form */
+#contactForm {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+}
